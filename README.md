@@ -72,18 +72,18 @@ explaining some of the most important parts of the application.
 
 Package                            Version
 ------------------------------------------------------------
-Angular CLI: 11.2.19
-Node: 10.13.0
-OS: win32 x64
-@angular-devkit/architect          0.1102.19
-@angular-devkit/build-angular      0.1102.19
-@angular-devkit/core               11.2.19
-@angular-devkit/schematics         11.2.19
-@angular/cdk                       11.2.13
-@angular/cli                       11.2.19
-@angular/material                  11.2.13
-@angular/material-moment-adapter   11.2.13
-@schematics/angular                11.2.19
-@schematics/update                 0.1102.19
-rxjs                               6.6.7
-typescript                         4.1.5
+* Angular CLI: 11.2.19
+* Node: 10.13.0
+* OS: win32 x64
+* @angular-devkit/architect          0.1102.19
+* @angular-devkit/build-angular      0.1102.19
+* @angular-devkit/core               11.2.19
+* @angular-devkit/schematics         11.2.19
+* @angular/cdk                       11.2.13
+* @angular/cli                       11.2.19
+* @angular/material                  11.2.13
+* @angular/material-moment-adapter   11.2.13
+* @schematics/angular                11.2.19
+* @schematics/update                 0.1102.19
+* rxjs                               6.6.7
+* typescript                         4.1.5
