@@ -1,0 +1,9 @@
+<mat-form-field class="in">
+    <input matInput [matDatepicker]="dp" (ngModelChange)="setInputYear($event)" type="number" (blur)="resetInputValue()" [formControl]="date">
+    <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+    <mat-datepicker #dp
+                    startView="multi-year"
+                    (yearSelected)="setYear($event, dp)"
+                    panelClass="example-year-picker">
+    </mat-datepicker>
+</mat-form-field>

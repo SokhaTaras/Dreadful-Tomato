@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movies-container {
+  width: 1200px;
+  display: flex;
+}
+.movies-container .popular-movies {
+  color: white;
+  font-weight: revert;
+  font-size: 27px;
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=movies.css.map */

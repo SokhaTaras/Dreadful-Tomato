@@ -1,0 +1,33 @@
+<header class="container">
+  <div class="header">
+      <div class="title" [routerLink]="['/home']">
+          <img src="assets/logo.png">
+      </div>
+      <div class="content-categories" *ngIf="!isHomePage">
+          <div class="movies-container" [routerLink]="['/movies']" [ngClass]="{ 'route-active': isMoviesPage }">
+              <img src="assets/icon-movies.png">
+              <span>Movies</span>
+          </div>
+          <div class="series-container" [routerLink]="['/series']" [ngClass]="{ 'route-active': isSeriesPage }">
+              <img src="assets/icon-series.png">
+              <span>Series</span>
+          </div>
+      </div>
+      <div class="nav">
+          <div class="filters" *ngIf="!isHomePage">
+              <h5>{{ ' | ' }}</h5>
+              <img src="assets/icon-filter.png">
+              <span>Filters</span>
+              <h5>{{ ' | ' }}</h5>
+          </div>
+          <div class="login">
+              <span>Login</span>
+              <img src="assets/icon-login.png">
+              <h5>{{ ' | ' }}</h5>
+          </div>
+          <div class="trail" *ngIf="!isHomePage">
+              <p>Start your free trail</p>
+          </div>
+      </div>
+    </div>
+</header>

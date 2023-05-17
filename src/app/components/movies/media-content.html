@@ -1,0 +1,12 @@
+<app-search
+            (searchChanged)="onSearchChanged($event)"
+            (yearChanged)="onYearChanged($event)"
+></app-search>
+<div class="wrapper">
+    <div class="content-container">
+        <p class="popular" *ngIf="isMoviesPage">Popular Movies</p>
+        <p class="popular" *ngIf="isSeriesPage">Popular Series</p>
+    </div>
+</div>
+<app-entries-list [entries]="(entriesList$ | async)?.items"></app-entries-list>
+<app-paginator [page]="page$ | async" [total]="(entriesList$ | async)?.total" (pageChanged)="onPageChanged($event)"></app-paginator>

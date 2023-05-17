@@ -1,0 +1,18 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container{
+  width: 1200px;
+  display: flex;
+  padding-top: 20px;
+
+  .popular{
+    color: white;
+    font-weight: revert;
+    font-size: 27px;
+    padding-left: 5px;
+  }
+}

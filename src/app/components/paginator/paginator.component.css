@@ -1,0 +1,47 @@
+.custom-paginator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.paginator-button {
+  font-size: 20px;
+  border: none;
+  color: white;
+  background: none;
+  cursor: pointer;
+}
+
+.paginator-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.paginator-pages {
+  list-style-type: none;
+  display: flex;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.paginator-page {
+  padding: 5px 10px;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paginator-page:hover {
+  background-color: red;
+}
+
+.paginator-page.active {
+  background-color: #de0404;
+}
+
+/*# sourceMappingURL=paginator.component.css.map */
