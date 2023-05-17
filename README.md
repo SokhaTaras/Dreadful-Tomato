@@ -69,13 +69,12 @@ Their CTO has no time to implement that, but she has defined some technical cons
 To understand how you take decisions during the implementation, please write a README file
 explaining some of the most important parts of the application.
 
-My versions 
-Angular CLI: 11.2.19
-Node: 10.13.0
-OS: win32 x64
 
 Package                            Version
 ------------------------------------------------------------
+Angular CLI: 11.2.19
+Node: 10.13.0
+OS: win32 x64
 @angular-devkit/architect          0.1102.19
 @angular-devkit/build-angular      0.1102.19
 @angular-devkit/core               11.2.19
